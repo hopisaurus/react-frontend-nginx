@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
+import pic from '../public/wavecheck.png'
 import './App.css';
 
 class App extends Component {
@@ -19,6 +20,7 @@ class App extends Component {
           >
             goaway
           </a>
+          <img src={pic} className="App-pic" alt="pic" />
         </header>
       </div>
     );
