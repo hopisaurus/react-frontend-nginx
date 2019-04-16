@@ -19,6 +19,7 @@ class App extends Component {
           >
             goaway
           </a>
+          <img src="/wavecheck.png" className="App-pic" alt="pic" />
         </header>
       </div>
     );
